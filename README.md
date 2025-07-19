@@ -202,46 +202,13 @@ Refer to the notebook for inline plots and commentary.
    ```bash
    pip install -r requirements.txt
    ```
-3. **Launch Jupyter Notebook**:
+
+3. Get Dataset:
+   Download Dataset: https://www.kaggle.com/datasets/larsen0966/student-performance-data-set
+
+   
+4. **Launch Jupyter Notebook**:
 
    ```bash
    jupyter notebook notebooks/Project.ipynb
    ```
-4. **Execute cells** in order, inspecting outputs and saving figures.
-
-Optionally, run individual scripts from `src/`:
-
-```bash
-python src/data_cleaning.py
-python src/clustering.py
-python src/modeling.py
-python src/evaluation.py
-```
-
-## Future Work
-
-* **Ensemble Methods**: Add XGBoost or LightGBM models
-* **Deep Learning**: Explore simple neural network architectures
-* **Additional Features**: Incorporate school-level or temporal data
-* **Web Dashboard**: Deploy a Streamlit/Flask app for interactive predictions
-* **Automated ML**: Use AutoML frameworks like AutoSklearn or H2O.ai for model selection
-
-## Contributing
-
-Contributions and suggestions are welcome:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add feature'`)
-4. Push to branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
-
-Please ensure code style consistency and include tests for new functions.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-*Last updated: July 19, 2025*
